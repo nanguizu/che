@@ -131,7 +131,7 @@ class SiteController extends Controller
           return $this->render('say', ['message' => $message]);
      }
      //创建entry
-     public  function actionEntry () {
+/*     public  function actionEntry () {
 
          $model = new EntryForm();
 //获取post 并验证model的值
@@ -142,5 +142,5 @@ class SiteController extends Controller
 // 无论是初始化显示还是数据验证错误
               return $this->render('entry', ['model' => $model]);
          }
-     }
+     }*/
 }
